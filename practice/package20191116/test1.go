@@ -47,4 +47,11 @@ func main() { // 入口函数.若有 init() 函数则会先执行 init() 函数
 	complex64: 32 位实数和虚数
 	complex128: 64 位实数和虚数
 注: IEEE 二进制浮点数算术标准(IEEE 754)是 20 世纪 80 年代以来最广泛使用的浮点数运算标准,为许多 CPU 与浮点运算器所采用
+
+其它数字类型:
+	byte:类似 uint8
+	rune:类似 int32
+	uint: 32 或 64 位
+	int:与 uint 一样大小
+	uintptr:无符号整型,用于存放一个指针
 */
