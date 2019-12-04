@@ -127,6 +127,7 @@ goto 语句:
 		函数体
 	}
 	可以指定参数类型和返回值类型,以及可以返回多个值:func fun(num1,num2 int)(int, string){ return num3,str1 }
+	另外, go 不支持默认参数也不支持重载
 
 函数参数:
 	值传递:浅复制
