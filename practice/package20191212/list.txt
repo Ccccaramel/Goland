@@ -1,0 +1,4 @@
+1.web
+TCP:
+    server:服务端
+    client:客户端
